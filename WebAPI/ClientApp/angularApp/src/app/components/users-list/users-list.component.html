@@ -1,0 +1,13 @@
+<!-- <ul *ngFor="let user of users">
+  <li>{{user.firstName}} {{user.lastName}}</li>
+  <li>{{user.email}}</li>
+  <li>Admin:  {{user.isAdmin}}</li>
+  <button class="delete-button" (click)="delete(user)">Delete</button>
+</ul> -->
+
+<ul class="list-group" *ngFor="let user of users">
+  <li class="list-group-item">{{user.firstName}} {{user.lastName}}</li>
+  <li class="list-group-item">{{user.email}}</li>
+  <li class="list-group-item">Admin:  {{user.isAdmin}}</li>
+  <button class="btn btn-danger delete-button" (click)="delete(user)">Delete</button>
+</ul>

@@ -1,0 +1,63 @@
+<!-- <div [formGroup]="userForm">
+  <div >
+    <div>
+      <label>First Name</label>
+      <input type="text" formControlName="firstName" />
+    </div>
+
+    <div>
+      <label>Last Name</label>
+      <input type="text" formControlName="lastName" />
+    </div>
+    <div>
+      <label>Email</label>
+      <input type="email" formControlName="email" />
+    </div>
+  </div>
+  <h4>Implement selection here</h4>
+  <button (click)="addUser()">Add</button>
+
+  <app-users-list (emitDelete)="emitDelete($event)"  [users]="users"></app-users-list>
+</div> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" id="firstName" formControlName="firstName">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" id="lastName" formControlName="lastName">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" formControlName="email">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Implement selection here</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <button class="btn btn-primary" (click)="addUser()">Add</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <app-users-list (emitDelete)="emitDelete($event)" [users]="users"></app-users-list>
+    </div>
+  </div>
+</div>
