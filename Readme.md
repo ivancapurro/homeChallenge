@@ -27,6 +27,8 @@ Significant updates have been made to the frontend of our project to enhance usa
 
 - **State Management**: NgRx has been suggested as a state management library to enhance the application's state management capabilities. This enables efficient management and synchronization of state across components.
 
+- **Testing**: Some tests have been added to the frontend. However, given the short time window, there is room for improvement in terms of test coverage. Conducting a thorough code review and identifying areas with insufficient test coverage can guide future testing efforts.
+
 ## Next Steps
 
 While we have made significant progress, there are still numerous opportunities for further improvement and functionality. Your careful review of the documentation and valuable insights and suggestions are highly appreciated.
